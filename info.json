@@ -1,0 +1,128 @@
+[
+    {
+      "id": "1",
+      "name": "Katya",
+      "software": "Clip Studio Paint",
+      "description":"This digital painting portrays the model Katya_Chertykova with a calm gaze, but with a hint of insecurity in her expression.  The fringe blend effect brush was used to create a dreamy and ethereal effect, while the ink wash and acrylic brushes were used to create depth and texture. The skin brush was used to add a natural and lifelike quality to the skin tones.  I used a variety of brushes and techniques in Clip Studio Paint to create this portrait, including the fringe blend effect brush, ink wash, acrylic, and skin brush. The layering technique was also used to build up the painting in stages. The painting is based on a photograph of Katya_Chertykova, sourced from her official Instagram account."
+    },
+
+    {
+        "id": "2",
+        "name": "Katya",
+        "software": "Clip Studio Paint",
+        "description":"This digital painting is a portrait of the model Katya_Chertykova, with a focus on the natural beauty of flowers and skin texture. For this painting I used a customized hair brush to create the intricate details of the flowers in the subject's hair, while the skin brush was used to achieve a realistic and natural-looking skin texture. I'm  also experimented with a new color palette for the skin tones, resulting in a unique and eye-catching effect. The hair brush was specifically tailored to create a natural look for the flowers in the subject's hair. The skin brush was used to achieve a realistic skin texture. The painting is based on a photograph of Katya_Chertykova, sourced from her official Instagram account. "
+    },
+    {
+        "id": "3",
+        "name": "Dreaming",
+        "software": "Clip Studio Paint",
+        "description": "This digital painting features an imaginary girl sitting on a bench, lost in deep thoughts. I try my best to captured the subject's emotions and expressions, conveying a sense of sadness and introspection. The customized hair brush was used to create intricate details in the subject's hair, while other basic brushes were used to create textures and shadows. The overall color palette is subdued, with muted tones that reflect the melancholic mood of the subject. "
+    },
+    {
+        "id": "4",
+        "name": "IU",
+        "software": "Clip Studio Paint",
+        "description":"This digital painting is a beautiful portrait of the artist IU (Lee Ji-Eun), created using basic brushes in Clip Studio Paint. The artist has mainly used light blue color to create a serene and peaceful atmosphere in the painting. The painting captures the essence of IU's beauty, with delicate features and a soft, dreamy quality. The use of light and shadow is particularly effective, creating depth and dimension in the painting. As the artist's favorite person, this painting is a beautiful tribute to IU's artistry and talent. Overall, this digital painting is a stunning work of art that showcases the artist's skill and creativity."
+    },
+    {
+        "id": "5",
+        "name": "A girl in Saree",
+        "software": "Adobe Photoshop"
+    },
+    {
+        "id": "6",
+        "name": "Hope",
+        "software": "Clip Studio Paint"
+    },
+    {
+        "id": "7",
+        "name": "Different",
+        "software": "Adobe Photoshop"
+    },
+    {
+        "id": "8",
+        "name": "chester",
+        "software": "Adobe Photoshop"
+    },
+    {
+        "id": "9",
+        "name": "Interior",
+        "software": "Blender"
+      },
+  
+      {
+          "id": "10",
+          "name": "Space-Ship",
+          "software": "Blender"
+      },
+      {
+          "id": "11",
+          "name": "Car",
+          "software": "Blender"
+      },
+      {
+          "id": "12",
+          "name": "Monster",
+          "software": "Blender"
+      },
+      {
+          "id": "13",
+          "name": "Stitch",
+          "software": "Midjourney-Ai"
+      },
+      {
+          "id": "14",
+          "name": "Fire-Flies",
+          "software": "Midjourney-Ai"
+      },
+      {
+          "id": "15",
+          "name": "Heart",
+          "software": "Midjourney-Ai"
+      },
+      {
+          "id": "16",
+          "name": "Girl with Gold",
+          "software": "Midjourney-Ai"
+      },
+      {
+        "id": "17",
+        "name": "Anime",
+        "software": "Stable Diffusion"
+    },
+    {
+        "id": "18",
+        "name": "Yuna",
+        "software": "Stable Diffusion"
+    },
+    {
+        "id": "19",
+        "name": "Forest",
+        "software": "Midjourney-Ai"
+    },
+    {
+        "id": "20",
+        "name": "Library",
+        "software": "Midjourney-Ai"
+    },
+    {
+        "id": "21",
+        "name": "IU",
+        "software": "adobe illustrator"
+    },
+    {
+        "id": "22",
+        "name": "Someone",
+        "software": "adobe illustrator"
+    },
+    {
+        "id": "23",
+        "name": "My Room",
+        "software": "adobe illustrator"
+    },
+    {
+        "id": "24",
+        "name": "Uncontrollably Fond",
+        "software": "adobe illustrator"
+    }
+]

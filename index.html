@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,200;0,300;0,400;1,500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Prasanna Bandara</title>
+    <script defer src="script.js"></script>
+    <script defer src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body> 
+  
+  <section id="landing">
+    <div class="logo">
+        <img src="gallery/logo.png" alt="logo">
+    </div>
+    <div class="navbar-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <div class="navbar" id="navBar">
+      
+      <div>
+      <ul> 
+        <li><a href="index.html">My Works</a></li>
+        <li><a href=#About>About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="portfolio.html" target="blank">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+       
+      </ul>
+      </div>
+   </div>
+   <div id="gallery">
+     <div class="square">
+       <a href="portfolio.html#Digital_Painting" target="blank"><img src="Gallery/image1.jpg" >
+       <span>Digital Painting</span></a>
+     </div>
+     <div class="square">
+      <a href="portfolio.html#Rendering" target="blank">
+      <img src="Gallery/image2.jpg">
+      <span>3D Rendering</span></a>
+    </div>
+    <div class="square">
+      <a href="portfolio.html#Ai_Arts" target="blank">
+      <img src="Gallery/image3.jpg">
+      <span>Ai Arts</span></a>
+    </div>
+    <div class="square">
+      <a href="portfolio.html#Illustrations" target="blank">
+      <img src="Gallery/image4.jpg">
+      <span>Illustrations</span></a>
+    </div>
+   </div>
+  
+  </section>
+  <section id="About">
+    <div id="about-section">
+      <div id="about-profile-pic">
+        <img src="Gallery/profile.jpg">
+      </div>
+      <div id="about-me">
+        <p> 
+          <span class="Title-1">Hello!</span>
+           <br>
+           
+          <p class="Para-inside reveal">
+            it's Prasanna! I'm a digital creator based in Sri Lanka. I grew up in the breathtaking city of Kandy, and I still call it home to this day.
+            </p>
+            <br>
+          <p class="Para-inside reveal">      
+            In 2022, I completed my diploma in Civil Engineering from NDT (University of Moratuwa). While studying, I discovered a new passion for web development and digital creations, programmings and Ai. It started as a hobby back in 2016, and I've been sharpening my skills ever since. <br><br>
+          </p>
+          <p class="Para-inside reveal">      
+            Now, I'm eager to take my talents to the next level and work as a freelancer. Let's collaborate and bring some amazing projects to life!
+          </p>
+        </p>
+
+      </div>
+    </div>
+  </section>
+  <section id="Contact">
+    <div id="contact-section">
+      
+      <div id="contact-me">
+      
+          <span class="Title-1">Contact Me</span>
+           <br>
+           <div class="social-media">
+              <a href="https://www.facebook.com/your.prasa" target="blank"><i class='bx bxl-facebook-circle'></i></a>
+              <a href="https://www.youtube.com/@aspirelyrics" target="blank"><i class='bx bxl-youtube'></i></a>
+              <a href="https://www.instagram.com/wmda.business" target="blank"><i class='bx bxl-instagram' ></i></a>
+              <a href=" https://wa.me/+94771108662" target="blank"> <i class='bx bxl-whatsapp-square' ></i> </a>
+           </div>
+  
+      </div>
+      <form onsubmit="sendEmail(); reset();">
+      <div id="contact-forms">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="textarea-my" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn-1">
+
+      </div>
+    </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Prasanna | All Rights Reserved.</p>
+    </div>
+     
+
+  </footer>
+
+</body>
+</html>
