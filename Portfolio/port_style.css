@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Delicious+Handrawn&family=Poppins:ital,wght@0,200;0,300;0,400;1,500&display=swap');
+
+*{ font-family: 'Clicker Script', cursive;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Clicker Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        background-color: #edf5e1;
+        justify-content: center;
+        align-items: center;
+}
+
+
+#header{
+    width: 100%;
+    height: 60px;
+    letter-spacing: 3px;
+    display: block;
+}
+
+#header .header1{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    color: rgb(31, 121, 101);
+    font-weight: 700;
+
+}
+
+#header .header1 span{
+    color:#05386B;
+}
+
+.PopUP{
+  margin: 20px 0 0 40px ;
+  padding: 0 10px;
+  background-color: #edf5e1;
+  display: none;
+  position:fixed;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  z-index: 1;
+  box-shadow: 2px 1px 10px 0.1px rgb(31, 121, 101) ;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #999 #fff;
+  border-radius: 10px;
+}
+
+
+.PopUP::-webkit-scrollbar {
+  width: 10px;
+}
+
+.PopUP::-webkit-scrollbar-thumb {
+  background-color: rgb(31, 121, 101) ;
+  border-radius: 3px;
+}
+
+.PopUP::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+#container{
+  padding: 10px 15px;
+  max-width: 1100px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+
+
+}
+.close-button{
+  width:30px;
+  height: 30px;
+  display: block;
+  justify-content: right;
+  margin: 0 50px 0 0;
+  padding:0 00px 0 0px;
+  position: fixed;
+  right: 0;
+  cursor: pointer;
+}
+
+.close-button a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font-size:30px;
+  color: rgb(66, 156, 137);
+}
+
+#container .left{
+  grid-row: span 1;
+  grid-column: span 1;
+  background-color: #8EE4AF;
+  border-radius:10px;
+  justify-content: center;
+  padding: 0 0 20px 0;
+}
+
+#container .middle{
+  grid-row: span 1;
+  grid-column: span 3;
+  border: 2px solid #8EE4AF;
+  background-color: #8EE4AF;
+  border-radius:10px;
+}
+
+#container .left .round-img{
+  width: 160px;
+  height: 160px;
+  margin: 20px auto;
+  padding: 0;  
+}
+
+#container .left .round-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:50%;
+    border: 3px solid rgb(31, 121, 101);
+ 
+}
+
+#container .left .round-img-topic{
+    color:#05386B;
+    font-weight: 400;
+    padding: 0px;
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+#container .left .underline{
+    width: 90%;
+    height: 2px;
+    padding: 1.5px 15px;
+    margin: 10px auto;
+    background-color: rgb(31, 121, 101);
+    display: block;
+}
+
+#container .left .description{
+  color:#05386B;
+  font-weight: 600;
+  padding: 0px;
+  font-size: 15px;
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+
+#container .left .description #photo-software{
+  font-weight: 400;
+}
+
+#container .middle .photo{
+  width: 100%;
+  height: 350px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+#container .middle .photo img{
+    width: auto;
+    height: 100%;
+    object-fit: fill;
+    border-radius:10px;
+    border: 3px solid rgb(31, 121, 101);
+}
+
+#container .middle p{
+  font-family: 'Poppins';
+  margin: 10px 15px;
+  padding: 10px;
+  text-align: justify;
+  color: #05386B;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#all{
+  opacity: 1;
+}
+
+#Digital_Painting , #Ai_Arts , #Rendering , #Illustrations{
+    margin:0;
+    padding: 0;
+    
+}
+
+.topic{
+    color:rgb(31, 121, 101) ;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+
+#gallery{
+    padding: 10px;
+    max-width: 1100px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    grid-auto-rows: 300px;
+    grid-auto-flow: dense;
+  
+}
+  
+  #gallery .square{
+    grid-row: span 1;
+    grid-column: span 1;
+    cursor: pointer;
+    
+  }
+
+  #Rendering #gallery .square{
+    grid-row: span 1;
+    grid-column: span 2;
+    cursor: pointer;
+  }
+  
+  #gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:10px;
+    transition: .5s ease;
+  }
+  
+  #gallery div img:hover{
+   transform: scale(1.04);
+
+  }
+
+.rec{
+    width: 50px;
+    height: 30px;
+    color: #05386B;
+    background-color: aqua;
+    display: block;
+  }
+  
