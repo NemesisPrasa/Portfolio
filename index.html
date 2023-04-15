@@ -10,13 +10,21 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Prasanna Bandara</title>
     <script defer src="script.js"></script>
-    <script defer src="https://smtpjs.com/v3/smtp.js"></script>
+    <script defer src="https://smtpjs.com/v3/smtp.js" async defer></script>
+    <script defer src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" async defer></script>
+    <meta name="google-signin-client_id" content="822265197465-j2c7el3cj7rjehg2blpfkgi734uoo1ub.apps.googleusercontent.com">
+
 </head>
 <body> 
   
   <section id="landing">
     <div class="logo">
         <img src="gallery/logo.png" alt="logo">
+    </div>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <div class="loginData">
+      
     </div>
     <div class="navbar-toggle">
       <span class="bar"></span>
