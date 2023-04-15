@@ -1,10 +1,42 @@
 @media  screen and (max-width:600px) {
-
+    #landing{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      border: 2px solid rgb(31, 121, 101);
+    }
     .logo{ 
         height: 80px;
         width: 250px;
         margin-top: 10px;
         margin-bottom: 10px; 
+    }
+
+    #gallery{
+      padding:5px;
+      max-width: 500px;
+      margin: 20px auto;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+      grid-auto-rows: 310px;
+      grid-auto-flow: dense;
+     
+    
+    }
+    
+    #gallery .square{
+      grid-row: span 1;
+      grid-column: span 1;
+    }
+    
+    #gallery div img{
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+      border-radius:10px;
+      transition: .5s ease;
+      cursor: pointer;
     }
 
     .navbar{
