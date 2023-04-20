@@ -11,8 +11,6 @@ $(document).ready(function() {
         var username = $('#userNameReg').val();
         var email = $('#emailReg').val();
         var password = $('#passwordReg').val();
-
-        console.log(`User ${username} registered with email ${email} and password ${password}`);
   
         // Check if user already exists
         if (users.hasOwnProperty(username)) {
