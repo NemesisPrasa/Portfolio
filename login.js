@@ -28,7 +28,7 @@ $(document).ready(function() {
   
         // Save user data to the JSON file using Ajax
         $.ajax({
-          type: 'POST',
+          type: 'PUT',
           url: 'registration.json',
           data: JSON.stringify(users),
           contentType: 'application/json',
